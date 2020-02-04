@@ -1,4 +1,4 @@
-baseURL = "https://kross.netlify.com"
+baseURL = "https://dapperdane.github.io/"
 languageCode = "en-us"
 title = "Simon Dybdal | Portfolio"
 theme = "kross-hugo"
