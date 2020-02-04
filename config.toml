@@ -1,0 +1,73 @@
+baseURL = "https://kross.netlify.com"
+languageCode = "en-us"
+title = "Simon Dybdal | Portfolio"
+theme = "kross-hugo"
+summaryLength = "10"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/shuffle/shuffle.min.js"
+
+
+# navigation
+[menu]
+  [[menu.main]]
+  name = "Work process"
+  URL = "work-process"
+  weight = 2
+  
+  [[menu.main]]
+  name = "Projects"
+  URL = "projects"
+  weight = 3
+      
+  [[menu.main]]
+  name = "About me"
+  URL = "about"
+  weight = 4
+
+  
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 5
+
+
+[params]
+logo = "images/logoSD.png"
+home = "Home"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+
+  [params.contact]
+  enable = false
+  formAction = "#" #contact form works with formspree.io
+
+  [params.footer]
+  email = "simon@dybdal1.dk"
+  phone = "+45 61 71 64 35"
+  linkedin = "https://www.linkedin.com/in/simondybdal/"

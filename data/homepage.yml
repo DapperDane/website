@@ -1,0 +1,182 @@
+# banner
+banner:
+  title : "Hi! <br> I’m Simon. I kill assumptions and build worthwhile products."
+  socialLinks:
+    - icon : "ti-email"
+      URL : "mailto:simon@dybdal1.dk"
+    
+    - icon : "ti-mobile"
+      URL : "tel:+4561716435"
+    
+    - icon : "ti-linkedin"
+      URL : "https://www.linkedin.com/in/simondybdal/"
+
+    # - icon : "ti-facebook"
+    #   URL : "#"
+      
+    # - icon : "ti-instagram"
+    #   URL : "#"
+      
+    # - icon : "ti-dribbble"
+    #   URL : "#"
+      
+    # - icon : "ti-twitter"
+    #   URL : "#"
+
+# about
+about:
+  enable : true
+  content : "I am a UX specialist with a passion for fixing real user problems through simple and elegant solutions. I take pride in ensuring the development of worthwhile products through solid user research and continuous testing of assumptions. I design interactions and information architecture with an MVP approach to keep up the velocity, testability, and focus on the core user problems."
+#  button:
+#    btnText : "Read more"
+#    URL : "/about"
+
+
+
+
+# experience
+experience:
+  enable : true
+  item: 
+    - logo : "images/experience/logo-kmd.png"
+      title : "UX Intern"
+      company : "KMD"
+      duration : "Apr 2016 - Jun 2016"
+
+    - logo : "images/experience/logo-dtu.png"
+      title : "Teaching Assistant in the course UX Engineering"
+      company : "DTU"
+      duration : "Jan 2017"
+
+    - logo : "images/experience/logo-kmd.png"
+      title : "UX Specialist"
+      company : "KMD"
+      duration : "Sep 2016 - Dec 2017"
+      
+    - logo : "images/experience/logo-charlietango.png"
+      title : "UX Specialist"
+      company : "Charlie Tango"
+      duration : "Dec 2017 - Jun 2018"
+      
+    - logo : "images/experience/logo-tame2.png"
+      title : "UX Researcher"
+      company : "Tame"
+      duration : "Feb 2019 - Dec 2019"
+
+# education
+education:
+  enable : true
+  item:
+    - title : "Design and Innovation (BEng)"
+      year : "2012-2016"
+      academy : "The Technical University of Denmark (DTU)"
+
+    - title : "Exchange semester in South Korea"
+      year : "Fall 2017"
+      academy : "Korean Advanced Institute of Science and Technology (KAIST)"
+    
+    - title : "Digital Media Engineering (cand.polyt.)"
+      year : "2016-2018"
+      academy : "The Technical University of Denmark (DTU)"
+      
+    # - title : "Secondary School Certificate"
+    #   year : "1998"
+    #   academy : "Cardiff School"
+
+# service
+service:
+  enable : true
+  item : 
+    - title : "User Research"
+      icon : "ti-search"
+      content : "Understanding users' behaviour, needs and motivations. The foundation of useful designs!"
+      highlighted : false
+
+    - title : "Information Architecture"
+      icon : "ti-direction-alt"
+      content : "Making sense of content for users in specific contexts. Making the complex clear!"
+      highlighted : true
+
+    - title : "Interaction Design"
+      icon : "ti-mouse"
+      content : "Creating the conversation a product or system has with its users. Making the interaction natural and pleasant so people want to come back!"
+      highlighted : false
+      
+
+
+# portfolio
+portfolio:
+  enable : true
+  item:
+    - image : "images/portfolio/item-1.png"
+      projectURL : "#"
+      
+    - image : "images/portfolio/item-2.png"
+      projectURL : "#"
+      
+    - image : "images/portfolio/item-3.png"
+      projectURL : "#"
+      
+    - image : "images/portfolio/item-4.png"
+      projectURL : "#"
+      
+    - image : "images/portfolio/item-5.png"
+      projectURL : "#"
+
+# testimonial
+testimonial:
+  enable : false
+  item:
+    - name : "Jesica Gomez"
+      image : "images/testimonial/client-1.png"
+      designation : "CEO, Funder"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      
+    - name : "Shirley Scot"
+      image : "images/testimonial/client-1.png"
+      designation : "CEO, Funder"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      
+    - name : "Jessica Julie"
+      image : "images/testimonial/client-1.png"
+      designation : "CEO, Funder"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+# client slider
+clientSlider:
+  enable : false
+  item:
+    - logo : "images/clients-logo/client-logo-1.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-2.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-3.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-4.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-5.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-1.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-2.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-3.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-4.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-5.png"
+      URL : "#"
+
+# blog
+blog:
+  enable : false
+

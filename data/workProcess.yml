@@ -1,0 +1,29 @@
+
+schools :     
+  - title : "Design Thinking"
+    icon : "ti-user"
+    content: "An iterative, user-centered and hands-on approach that can lead to innovation and competitive advantages."
+
+  - title : "Lean UX"
+    icon : "ti-reload"
+    content : "Hypothesis, test and data driven process that aims to continuously learn, build and measure."
+
+  - title : "Contextual Design"
+    icon : "ti-eye"
+    content : "User-centered design process that leverages ethnographic studies for data collection and uses work models and affinity diagrams for analysis."
+
+  - title : "Riskiest Assumption Test (RAT)"
+    icon : "ti-lock"
+    content : "The smallest experiments you can do to test your biggest assumptions; Small and rapid tests that are made to answer one assumption."
+
+
+sections: 
+  - title : "My Process"
+    paragraph : "My process is strongly based on the approaches of Design Thinking, Lean UX, Contextual Design and Riskiest Assumption Test. These approaches are all similar and overlapping in several places, since they are all interative and user-centered, as well as test- and pain-driven. 
+
+Every User Story is at its core a hypothesis. I strive to validate or invalidate these hypotheses with small, frequent tests as a way of reducing risk, development time and cost.
+
+I am going for creating as much value for the users as quickly as possible. This is done through MVPs and fast design iterations."
+
+  - title : "Test title 2"
+    paragraph : "I have a well-equipped toolbox of methods I can use in different situations of product development. The methods I use depends on the context, which in turn depends on:"

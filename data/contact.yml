@@ -1,0 +1,13 @@
+socialLinks:
+    - title : "simon@dybdal1.dk"
+      icon : "ti-email"
+      URL : "mailto:simon@dybdal1.dk"
+      
+    
+    - icon : "ti-mobile"
+      URL : "tel:+4561716435"
+      title: "+45 6171 6435"
+    
+    - icon : "ti-linkedin"
+      URL : "https://www.linkedin.com/in/simondybdal/"
+      title : "@simondybdal" 
