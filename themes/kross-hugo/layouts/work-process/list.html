@@ -1,0 +1,47 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<!-- Mit forsøg med at range over datafil -->
+  <!-- <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          {{ range .Site.Data.workProcess.sections }}
+            <h2 class="section-title">{{.title}}</h2>
+            <p> {{.paragraph | markdownify}}</p>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+ 
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">My Process</h2>
+          <p>My process is strongly based on the approaches of Design Thinking, Lean UX, Contextual Design and Riskiest Assumption Test. These approaches are all similar and overlapping in several places, since they are all interative and user-centered, as well as test- and pain-driven. 
+            Every User Story is at its core a hypothesis. I strive to validate or invalidate these hypotheses with small, frequent tests as a way of reducing risk, development time and cost.
+            I am going for creating as much value for the users as quickly as possible. This is done through MVPs and fast design iterations.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{{ partial "schools-of-thought.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">My Methods</h2>
+        <p>I have a well-equipped toolbox of methods I can use in different contexts of product development. The context usually depends on:
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
