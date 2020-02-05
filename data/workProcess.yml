@@ -19,7 +19,7 @@ schools :
 
 sections: 
   - title : "My Process"
-    paragraph : "My process is strongly based on the approaches of Design Thinking, Lean UX, Contextual Design and Riskiest Assumption Test. These approaches are all similar and overlapping in several places, since they are all interative and user-centered, as well as test- and pain-driven. 
+    content : "My process is strongly based on the approaches of Design Thinking, Lean UX, Contextual Design and Riskiest Assumption Test. These approaches are all similar and overlapping in several places, since they are all interative and user-centered, as well as test- and pain-driven. 
 
 Every User Story is at its core a hypothesis. I strive to validate or invalidate these hypotheses with small, frequent tests as a way of reducing risk, development time and cost.
 

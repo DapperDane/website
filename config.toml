@@ -29,8 +29,8 @@ summaryLength = "10"
 # navigation
 [menu]
   [[menu.main]]
-  name = "Work process"
-  URL = "work-process"
+  name = "My process"
+  URL = "my-process"
   weight = 2
   
   [[menu.main]]

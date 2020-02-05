@@ -25,11 +25,11 @@ banner:
 
 # about
 about:
-  enable : true
+  enable : false
   content : "I am a UX specialist with a passion for fixing real user problems through simple and elegant solutions. I take pride in ensuring the development of worthwhile products through solid user research and continuous testing of assumptions. I design interactions and information architecture with an MVP approach to keep up the velocity, testability, and focus on the core user problems."
-#  button:
-#    btnText : "Read more"
-#    URL : "/about"
+  button:
+    btnText : "Read more >"
+    URL : "/my-process"
 
 
 
