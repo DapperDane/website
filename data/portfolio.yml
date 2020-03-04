@@ -11,13 +11,15 @@ list:
 
 # portfolio item
 item:
-  - image : "images/portfolio/item-1.png"
-    projectURL : "#"
+  - image : "images/about/CV.jpg"
+    title : "This is a test from data"
+    projectURL : "tame"
     projectType:
       - type: "design"
       - type: "illustration"
       
   - image : "images/portfolio/item-2.png"
+    title : "Gameboy Color"
     projectURL : "#"
     projectType:
       - type: "branding"
