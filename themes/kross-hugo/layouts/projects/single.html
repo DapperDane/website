@@ -1,0 +1,121 @@
+{{ define "main" }}
+{{ partial "page-title.html" . }}
+
+<!-- Context -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Context</h2>
+        <!-- About the company -->
+        <h4 class="section-title">About the Company</h4>
+        <p class="font-secondary lead text-dark"> {{ .Params.contextCompany }}</p>
+        
+        <!-- The problem -->
+        <h4 class="section-title">The Problem</h4>
+        <p class="font-secondary lead text-dark"> {{ .Params.contextProblem }}</p>
+
+
+        <!-- My role -->
+        <h4 class="section-title">My Role</h4>
+        <p class="font-secondary lead text-dark"> {{ .Params.contextRole }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /context -->
+
+<!-- Process -->
+<section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">Process</h2>
+          <p class="font-secondary lead text-dark"> {{ .Params.process }}</p>
+          {{ with .Param "processImg" }}
+            <img src="{{ .  | absURL }}" class="img-reponsive img-circle">
+          {{ else }}  
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- /Process -->
+
+
+<!-- Solution -->
+<section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">Solution</h2>
+          <p class="font-secondary lead text-dark"> {{ .Params.solution }}
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- /Solution -->
+
+
+<!-- Result -->
+<section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">Result</h2>
+          <p class="font-secondary lead text-dark"> {{ .Params.result }}
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- /Result -->
+
+
+
+<!-- Challenges -->
+<section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">Challenges</h2>
+          <p class="font-secondary lead text-dark"> {{ .Params.challenges }}
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- /Challenges -->
+
+
+<!-- Take aways -->
+<section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">Take Aways</h2>
+          <p class="font-secondary lead text-dark"> {{ .Params.takeAways }}
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- /Take aways -->
+
+
+
+
+
+<!-- Button -->
+<section class="section">
+    <div class="text-center">
+        <a class="btn btn-primary" href="/projects" role="button">View more projects</a>
+    </div>
+</section>
+<!-- /Button -->
+
+{{ end }}
+
