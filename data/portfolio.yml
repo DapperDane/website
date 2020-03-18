@@ -20,15 +20,18 @@ item:
       - type: "ia"
       - type: "interaction design"
       
-  - image : "images/portfolio/item-2.png"
-    title : "Gameboy Color"
-    projectURL : "#"
-    projectType:
-      - type: "branding"
   
   - image : "images/portfolio/kitchen-01.JPG"
-    title : "Updated IA in our kitchen"
+    title : "Updating kitchen IA"
     projectURL : "kitchen"
     projectType : 
       - type: "user research"
       - type: "ia"
+      - type: "interaction design"
+
+  - image : "images/portfolio/india-thumb.JPG"
+    title : "Improving Hand Hygiene, InnoAid"
+    projectURL : "innoaid"
+    projectType : 
+      - type: "user research"
+      - type: "interaction design"

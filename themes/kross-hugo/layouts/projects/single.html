@@ -14,11 +14,19 @@
         <!-- The problem -->
         <h4 class="section-title">The Problem</h4>
         <p class="font-secondary lead text-dark"> {{ .Params.contextProblem }}</p>
+        {{ with .Param "contextProblemImg" }}
+        <img src="{{ .  | absURL }}" class="img-reponsive" width="100%">          
+        {{ else }}  
+        {{ end }}
 
 
         <!-- My role -->
         <h4 class="section-title">My Role</h4>
         <p class="font-secondary lead text-dark"> {{ .Params.contextRole }}</p>
+        {{ with .Param "contextRoleImg" }}
+        <img src="{{ .  | absURL }}" class="img-reponsive" width="100%">          
+        {{ else }}  
+        {{ end }}
       </div>
     </div>
   </div>
@@ -32,8 +40,16 @@
         <div class="col-12 text-center">
           <h2 class="section-title">Process</h2>
           <p class="font-secondary lead text-dark"> {{ .Params.process }}</p>
-          {{ with .Param "processImg" }}
-            <img src="{{ .  | absURL }}" class="img-reponsive img-circle">
+          {{ with .Param "processImg01" }}
+            <img src="{{ .  | absURL }}" class="img-reponsive" width="100%">
+          {{ else }}  
+          {{ end }}
+          {{ with .Param "processImg02" }}
+          <img src="{{ .  | absURL }}" class="img-reponsive" width="100%">
+          {{ else }}  
+          {{ end }}
+          {{ with .Param "processImg03" }}
+          <img src="{{ .  | absURL }}" class="img-reponsive" width="100%">          
           {{ else }}  
           {{ end }}
         </div>
@@ -53,6 +69,10 @@
           <h2 class="section-title">Solution</h2>
           <p class="font-secondary lead text-dark"> {{ .Params.solution }}
             </p>
+          {{ with .Param "solutionImg" }}
+          <img src="{{ .  | absURL }}" class="img-reponsive" width="100%">          
+          {{ else }}  
+          {{ end }}
         </div>
       </div>
     </div>

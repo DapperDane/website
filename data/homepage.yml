@@ -27,9 +27,9 @@ banner:
 about:
   enable : false
   content : "I am a UX specialist with a passion for fixing real user problems through simple and elegant solutions. I take pride in ensuring the development of worthwhile products through solid user research and continuous testing of assumptions. I design interactions and information architecture with an MVP approach to keep up the velocity, testability, and focus on the core user problems."
-  button:
-    btnText : "Read more >"
-    URL : "/my-process"
+  #button:
+  #  btnText : "Read more >"
+  #  URL : "/my-process"
 
 
 
@@ -108,20 +108,33 @@ service:
 portfolio:
   enable : true
   item:
-    - image : "images/portfolio/item-1.png"
-      projectURL : "#"
-      
-    - image : "images/portfolio/item-2.png"
-      projectURL : "#"
-      
-    - image : "images/portfolio/item-3.png"
-      projectURL : "#"
-      
-    - image : "images/portfolio/item-4.png"
-      projectURL : "#"
-      
-    - image : "images/portfolio/item-5.png"
-      projectURL : "#"
+    - image : "images/portfolio/tameLogo.gif"
+      title : "Reuse of data, Tame"
+      projectURL : "projects/tame"
+      projectType:
+        - type: "user research"
+        - type: "ia"
+        - type: "interaction design"
+        
+    
+    - image : "images/portfolio/kitchen-01.JPG"
+      title : "Updating kitchen IA"
+      projectURL : "projects/kitchen"
+      projectType : 
+        - type: "user research"
+        - type: "ia"
+        - type: "interaction design"
+
+    - image : "images/portfolio/india-thumb.JPG"
+      title : "Improving Hand Hygiene, InnoAid"
+      projectURL : "projects/innoaid"
+      projectType : 
+        - type: "user research"
+        - type: "interaction design"
+
+
+
+
 
 # testimonial
 testimonial:
